@@ -1,5 +1,4 @@
 from ClassesBattle.game import Person
-import random
 
 magic = [{'name': 'Fire', 'cost': 10, 'damage': 100},
          {'name': 'Thunder', 'cost': 10, 'damage': 150},
