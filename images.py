@@ -1,4 +1,4 @@
-# image scrapper, and download files
+# image scraper, and download files
 from bs4 import BeautifulSoup as bs
 from PIL import Image
 from io import BytesIO
