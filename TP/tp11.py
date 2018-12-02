@@ -1,3 +1,6 @@
+import sys
+
+sys.setrecursionlimit(5000)
 def dfs(graph, start, goal):
 	stack = [start]
 	path = []
@@ -52,18 +55,23 @@ def dfs_recursive_enh(graph, start, path=[]):
 
 
 # function without stack 1 solution
-def dfs_recursive_enh_sol(graph, start, goal, path=[]):
+def dfs_recursive_enh_sol(graph, start, goal, path=[], vis=[]):
 	path += [start]
+	vis.append(start)
+
+	# TO DO: add a visited function to add a path from parent to node
 
 	for neighbor in reversed(graph[start]):
 		if goal in path:
 			break
 		if neighbor not in path:
-			if goal != neighbor:
-				path = dfs_recursive_enh_sol(graph, neighbor, goal, path)
-			else:
+			if goal == neighbor:
 				path += neighbor
+				vis.append(neighbor)
+				print("jjknkdfnv", vis)
 				break
+			else:
+				path = dfs_recursive_enh_sol(graph, neighbor, goal, path, vis)
 
 	return path
 
@@ -83,4 +91,26 @@ def dfs_recursive_enh_multi_sol(graph, start, goal, path=[]):
 				break
 
 	return path
+
+
+# dfs algo returns path from root to targeted vertex
+found = 0
+
+
+def dfs_goal_w_path(graph, node, goal, path=[], visited=[]):
+	global found
+	if found > 0:
+		return
+	visited.append(node)
+	path = path + [node]
+	for neighbor in graph[node]:
+		if neighbor == goal:
+			found = found + 1
+			path.append(neighbor)
+			visited.append(node)
+			print('visited: ', visited)
+			print('path: ', path)
+			return
+		if neighbor not in path:
+			dfs_goal_w_path(graph, neighbor, goal, path, visited)
 

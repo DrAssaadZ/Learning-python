@@ -62,3 +62,7 @@ class Person:
             print(str(i) + ':' + item['name'], 'cost : ', item['cost'])
             i += 1
 
+# special method names:
+    # __len__ len(object)
+    # __repr__ for representation when object sent as a parameter to print func implementation: return object.string
+
