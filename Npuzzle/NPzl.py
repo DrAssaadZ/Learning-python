@@ -18,7 +18,7 @@ class State:
 goal_state = [0, 1, 2, 3]
 goal_node = State
 initial_state = list()
-board_len = 4
+n = 4
 board_side = 2
 
 nodes_visited = 0
@@ -87,7 +87,7 @@ def move(state, position):
 
     if position == 2:  # Down
 
-        if index not in range(board_len - board_side, board_len):
+        if index not in range(n - board_side, n):
 
             temp = new_state[index + board_side]
             new_state[index + board_side] = new_state[index]
@@ -99,7 +99,7 @@ def move(state, position):
 
     if position == 3:  # Left
 
-        if index not in range(0, board_len, board_side):
+        if index not in range(0, n, board_side):
 
             temp = new_state[index - 1]
             new_state[index - 1] = new_state[index]
@@ -111,7 +111,7 @@ def move(state, position):
 
     if position == 4:  # Right
 
-        if index not in range(board_side - 1, board_len, board_side):
+        if index not in range(board_side - 1, n, board_side):
 
             temp = new_state[index + 1]
             new_state[index + 1] = new_state[index]

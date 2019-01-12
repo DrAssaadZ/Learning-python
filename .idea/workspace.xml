@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="049ec6c7-0a64-4cbe-a593-de81b4463490" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Final_tp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Npuzzle/NPzl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Npuzzle/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort-list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Otsu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/median.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regex.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/tp11.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP/tp11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp1.2_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tp1.2_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Npuzzle/NPzl.py" beforeDir="false" afterPath="$PROJECT_DIR$/Npuzzle/NPzl.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,71 +50,64 @@
     <session id="1226924363">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
+          <entry key="project.closed" value="32" />
           <entry key="project.open.time.14" value="2" />
-          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.17" value="3" />
-          <entry key="project.open.time.18" value="3" />
-          <entry key="project.open.time.19" value="3" />
+          <entry key="project.open.time.17" value="4" />
+          <entry key="project.open.time.18" value="4" />
+          <entry key="project.open.time.19" value="4" />
           <entry key="project.open.time.20" value="3" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.22" value="2" />
-          <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.22" value="4" />
+          <entry key="project.open.time.23" value="3" />
           <entry key="project.open.time.24" value="3" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.83" value="1" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="9770" />
+          <entry key="py" value="10755" />
           <entry key="txt" value="845" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="845" />
-          <entry key="Python" value="9770" />
+          <entry key="Python" value="10755" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="48" />
+          <entry key="jpg" value="11" />
+          <entry key="py" value="56" />
           <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Image" value="11" />
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="48" />
+          <entry key="Python" value="56" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Final_tp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Npuzzle/NPzl.py">
+        <entry file="file://$PROJECT_DIR$/median.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-114">
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
+            <state relative-caret-position="411">
+              <caret line="29" column="23" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,6 +159,9 @@
         <option value="$PROJECT_DIR$/Npuzzle/State.py" />
         <option value="$PROJECT_DIR$/Final_tp.py" />
         <option value="$PROJECT_DIR$/Npuzzle/NPzl.py" />
+        <option value="$PROJECT_DIR$/regex.py" />
+        <option value="$PROJECT_DIR$/Otsu.py" />
+        <option value="$PROJECT_DIR$/median.py" />
       </list>
     </option>
   </component>
@@ -203,11 +200,6 @@
               <item name="LearningPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearningPython" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="LearningPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearningPython" type="462c0819:PsiDirectoryNode" />
-              <item name="Npuzzle" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -217,10 +209,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\les études\LearningPython" />
       <recent name="F:\les études\LearningPython\TP" />
     </key>
   </component>
@@ -236,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Final_tp">
+  <component name="RunManager" selected="Python.median">
     <configuration name="Final_tp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearningPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -279,6 +272,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Otsu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LearningPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Otsu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="State" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearningPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -300,7 +314,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sort-list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="median" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearningPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -312,28 +326,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sort-list.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tp1.2_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LearningPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tp1.2_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/median.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -343,19 +336,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.tp1.2_test" />
-      <item itemvalue="Python.sort-list" />
       <item itemvalue="Python.State" />
       <item itemvalue="Python.NPzl" />
       <item itemvalue="Python.Final_tp" />
+      <item itemvalue="Python.Otsu" />
+      <item itemvalue="Python.median" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.median" />
+        <item itemvalue="Python.Otsu" />
         <item itemvalue="Python.Final_tp" />
         <item itemvalue="Python.NPzl" />
         <item itemvalue="Python.State" />
-        <item itemvalue="Python.sort-list" />
-        <item itemvalue="Python.tp1.2_test" />
       </list>
     </recent_temporary>
   </component>
@@ -383,14 +376,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17035547" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18779343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20963173" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19546743" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -457,13 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pandas_power.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -562,32 +547,81 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Npuzzle/output.txt" />
-    <entry file="file://$PROJECT_DIR$/output.txt">
+    <entry file="file://$PROJECT_DIR$/output.txt" />
+    <entry file="file://$PROJECT_DIR$/Npuzzle/State.py" />
+    <entry file="file://$PROJECT_DIR$/regex.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Npuzzle/State.py">
+    <entry file="file://$PROJECT_DIR$/image.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Npuzzle/NPzl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="399">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Final_tp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_power.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Otsu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="83" column="22" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="22" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Npuzzle/NPzl.py">
+    <entry file="file://$PROJECT_DIR$/median.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        <state relative-caret-position="411">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
