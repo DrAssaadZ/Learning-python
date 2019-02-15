@@ -1,6 +1,6 @@
 import numpy as np
-from pylab import *
 from PIL import Image
+from pylab import *
 
 
 # between class variance thresholding method that takes 2 arguments ( the total number of pixels and the histogram)
@@ -14,11 +14,15 @@ def between_class_variance_thresholding(px, histo):
 
     # initialising background class probability and  foreground class probability variables
     proba_background, proba_foreground = 0, 0
+    variance_background, variance_foreground = 0, 0
 
     # initialising background sum , peak (max value) and the threshold value variables
     sum_background = 0
     peak = 0
     threshold = 0
+
+    # checks if the variance is initialised
+    calc_Var = False
 
     # looping through all possible threshold values
     for i in range(256):
@@ -39,12 +43,28 @@ def between_class_variance_thresholding(px, histo):
         mean_background = sum_background / proba_background
         mean_foreground = (sum_total - sum_background) / proba_foreground
 
+        # initialising the foreground variance
+        if not calc_Var:
+            for j in range(i, 256):
+                variance_foreground += ((j - mean_foreground) ** 2) * histo[j]
+        else:
+            variance_foreground = variance_foreground - ((i - mean_foreground) ** 2) * histo[i]
+
+        # calculating the background variance
+        variance_background += ((i - mean_background) ** 2) * histo[i]
+
         # calculating the between class variance
         BCV = proba_background * proba_foreground * ((mean_background - mean_foreground) ** 2)
 
+        # calculating the within class variance
+        WCV = proba_background * (variance_background/proba_background) + proba_foreground * (variance_foreground/proba_foreground)
+
+        # calculating the total variance
+        total_variance = BCV + WCV
+
         # finding the max value
-        if BCV > peak:
-            peak = BCV
+        if total_variance > peak:
+            peak = total_variance
             threshold = i
     print(threshold)
     return threshold
@@ -84,3 +104,17 @@ nbr_px = npImg.shape[0] * npImg.shape[1]
 otsu(nbr_px, histogram)
 # saving the resulted image
 Image.fromarray(npImg).save('result.jpg')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
